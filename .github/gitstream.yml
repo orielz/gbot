@@ -11,3 +11,5 @@ jobs:
     steps:
       - name: say-hello
         run: echo hello world
+        with:
+          dispatch_type: workflow
