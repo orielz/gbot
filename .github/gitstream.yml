@@ -1,0 +1,15 @@
+name: Workflows should run on another repo
+on:
+  workflow_dispatch:
+    inputs:
+      client_payload:
+        description: The client payload
+        required: true
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say-hello
+        run: echo hello world
+        with:
+          dispatch_type: workflow
