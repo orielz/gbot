@@ -1,4 +1,4 @@
-name: Workflows should run on another repo
+name: gitstream
 on:
   workflow_dispatch:
     inputs:
