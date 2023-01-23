@@ -1,13 +1,6 @@
 
 
 automations:
-  double_review:
-    if:
-      - true
-    run:
-      - action: set-required-approvals@v1
-        args:
-          reviewers: 2
   estimated_time_to_review:
     if:
       - true
