@@ -1,5 +1,4 @@
 package irc
-
 import (
 	"fmt"
 	gconfig "gbot/config"
