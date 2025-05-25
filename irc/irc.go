@@ -8,7 +8,6 @@ import (
 
 	irc "github.com/fluffle/goirc/client"
 )
-
 // Start returns random name
 func Start() {
 
