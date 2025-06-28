@@ -55,7 +55,7 @@ func Start() {
 				oldSrc = strings.Replace(oldSrc, " ", "", -1)
 
 				var newSrc = newNick + "!" + strings.Split(oldSrc, "!")[1]
-				newSrc = strings.Replace(newSrc, " ", "", -1)
+				newSrc = strings.Replace(newSrc, " ", "", -1) 
 
 				gconfig.Admins = ghelper.RemoveFromSlice(gconfig.Admins, oldSrc)
 				gconfig.Admins = append(gconfig.Admins, newSrc)
