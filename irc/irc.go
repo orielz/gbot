@@ -11,7 +11,6 @@ import (
 
 // Start returns random name
 func Start() {
-
 	for {
 
 		// Create config struct and init defaults
