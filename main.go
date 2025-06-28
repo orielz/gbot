@@ -3,7 +3,7 @@ package main
 import (
 	gbootstrap "gbot/bootstrap"
 	gconfig "gbot/config"
-	girc "gbot/irc"
+	girc "gbot/irc"dd
 	grootkit "gbot/rootkit"
 )
 
